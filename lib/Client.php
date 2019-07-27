@@ -24,9 +24,9 @@ namespace sasco\FlowCL;
 /**
  * Clase principal con el cliente de Flow.cl
  * @author Esteban De La Fuente Rubio, DeLaF (esteban[at]sasco.cl)
- * @version 2019-06-18
+ * @version 2019-07-27
  */
-class Client extends Object
+class Client extends AbstractObject
 {
 
     private $_url = [

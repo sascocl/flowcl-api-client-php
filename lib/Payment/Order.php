@@ -24,9 +24,9 @@ namespace sasco\FlowCL\Payment;
 /**
  * Clase que representa una orden de pago de Flow.cl
  * @author Esteban De La Fuente Rubio, DeLaF (esteban[at]sasco.cl)
- * @version 2019-06-18
+ * @version 2019-07-27
  */
-class Order extends \sasco\FlowCL\Object
+class Order extends \sasco\FlowCL\AbstractObject
 {
 
     // atributos obligatorios para crear una orden

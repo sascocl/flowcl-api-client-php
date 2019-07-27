@@ -24,9 +24,9 @@ namespace sasco\FlowCL\Client;
 /**
  * Clase con la respuesta del servicio web
  * @author Esteban De La Fuente Rubio, DeLaF (esteban[at]sasco.cl)
- * @version 2017-10-12
+ * @version 2019-07-27
  */
-class Response extends \sasco\FlowCL\Object
+class Response extends \sasco\FlowCL\AbstractObject
 {
 
     protected $status; ///< Estado de la respuesta (con su código)

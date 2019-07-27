@@ -24,9 +24,9 @@ namespace sasco\FlowCL;
 /**
  * Clase abstracta que será hederada por las clases del SDK
  * @author Esteban De La Fuente Rubio, DeLaF (esteban[at]sasco.cl)
- * @version 2017-10-12
+ * @version 2019-07-27
  */
-abstract class Object
+abstract class AbstractObject
 {
 
     /**
