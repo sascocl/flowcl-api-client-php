@@ -134,18 +134,18 @@ class Socket
      * @param response_line
      * @return Arreglo con índices: protocol, code, message
      * @author Esteban De La Fuente Rubio, DeLaF (esteban[at]sasco.cl)
-     * @version 2014-12-03
+     * @version 2019-11-07
      */
     private function parseStatus($response_line)
     {
         if (is_array($response_line)) {
             $response_line = $response_line[count($response_line)-1];
         }
-        list($protocol, $status, $message) = explode(' ', $response_line, 3);
+        $aux = explode(' ', $response_line, 3);
         return [
-            'protocol' => $protocol,
-            'code' => $status,
-            'message' => $message,
+            'protocol' => $aux[0],
+            'code' => $aux[1],
+            'message' => !empty($aux[2]) ? $aux[2] : null,
         ];
     }
 
