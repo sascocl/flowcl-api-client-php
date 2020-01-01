@@ -12,8 +12,6 @@ O sea, puede ser utilizado tanto en software libre como en software privativo.
 
 Donaciones en ETH a 0x2a8535838d0d10E90ffcB36dd2E2788667B6c9C5
 
-[Documentación de la biblioteca](http://doc.criptopagos.cl/flowcl-api-client-php)
-
 Instalación
 -----------
 
